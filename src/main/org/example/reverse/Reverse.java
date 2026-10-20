@@ -1,12 +1,6 @@
-package main.java.org.example.reverse;
+package main.org.example.reverse;
 
 public class Reverse {
-    public static void main(String[] args) {
-        String text = "J@va the be$t!123";
-        String result = reverseLetters(text);
-        System.out.println("Input: " + text);
-        System.out.println("Output: " + result);
-    }
 
     public static String reverseLetters(String text) {
         char[] chars = text.toCharArray();
