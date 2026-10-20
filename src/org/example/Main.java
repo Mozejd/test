@@ -1,6 +1,6 @@
-package main.org.example;
+package org.example;
 
-import main.org.example.reverse.Reverse;
+import org.example.reverse.Reverse;
 
 public class Main {
     public static void main(String[] args) {

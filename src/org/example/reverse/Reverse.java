@@ -1,4 +1,4 @@
-package main.org.example.reverse;
+package org.example.reverse;
 
 public class Reverse {
 
