@@ -1,9 +1,15 @@
-package ReverseLetter;
+package main.java.org.example.reverse;
 
-public class ReverseLetter {
+public class Reverse {
     public static void main(String[] args) {
-        String s = "J@va the be$t!123";
-        char [] chars = s.toCharArray();
+        String text = "J@va the be$t!123";
+        String result = reverseLetters(text);
+        System.out.println("Input: " + text);
+        System.out.println("Output: " + result);
+    }
+
+    public static String reverseLetters(String text) {
+        char[] chars = text.toCharArray();
         int left = 0;
         int right = chars.length - 1;
         while (left < right) {
@@ -20,8 +26,6 @@ public class ReverseLetter {
                 right--;
             }
         }
-        String result = new String(chars);
-        System.out.println("Imput: " + s);
-        System.out.println("Output: " + result);
+        return new String(chars);
     }
 }
